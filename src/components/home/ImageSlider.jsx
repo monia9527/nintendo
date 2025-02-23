@@ -1,3 +1,6 @@
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "../home/css/CustomSlider.css";
 import React, { useState, useRef, useEffect } from "react";
 import Slider from "react-slick";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
@@ -8,9 +11,6 @@ import img4 from "../../assets/img4.png";
 import img5 from "../../assets/img5.png";
 import img6 from "../../assets/img6.png";
 import img7 from "../../assets/img7.png";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "../home/css/CustomSlider.css";
 
 function CustomSlider() {
   const [currentSlide, setCurrentSlide] = useState(0);
