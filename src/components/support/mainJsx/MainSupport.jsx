@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../card'
+import HelpCard from '../HelpCard'
 import Question from '../Question'
 import ContactUs from '../Contact'
 
@@ -7,7 +7,7 @@ import ContactUs from '../Contact'
 const MainSupport = () => {
   return (
    <>
-    <Card />
+    <HelpCard />
     <Question />
     <ContactUs />
    </>

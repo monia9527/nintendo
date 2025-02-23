@@ -16,7 +16,6 @@ const containerVariants = {
   },
 };
 
-// 1. 照片动画：从左侧滑入
 const photoVariants = {
   hidden: { opacity: 0, x: -100 },
   show: {
@@ -26,7 +25,6 @@ const photoVariants = {
   },
 };
 
-// 2. 标题动画：从上方滑入
 const headingVariants = {
   hidden: { opacity: 0, y: -50 },
   show: {
@@ -36,7 +34,6 @@ const headingVariants = {
   },
 };
 
-// 3. 第一段文字动画：从右侧滑入 + 轻微旋转
 const paragraph1Variants = {
   hidden: { opacity: 0, x: 80, rotate: 2 },
   show: {
@@ -47,7 +44,6 @@ const paragraph1Variants = {
   },
 };
 
-// 4. 第二段文字动画：自下而上弹性进入
 const paragraph2Variants = {
   hidden: { opacity: 0, y: 50, scale: 0.8 },
   show: {
@@ -58,7 +54,6 @@ const paragraph2Variants = {
   },
 };
 
-// 5. 第三段文字动画：从左侧滑入
 const paragraph3Variants = {
   hidden: { opacity: 0, x: -50 },
   show: {
@@ -83,9 +78,8 @@ const NintendoCEOSection = () => {
         variants={containerVariants}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true }} // 只播放一次，可去掉once让其每次进入视窗都播放
+        viewport={{ once: true }} 
       >
-        {/* 照片 */}
         <motion.div variants={photoVariants}>
           <div className="overflow-hidden rounded-2xl border border-gray-200 p-2 shadow-md inline-block">
             <img
@@ -96,7 +90,6 @@ const NintendoCEOSection = () => {
           </div>
         </motion.div>
 
-        {/* 标题 */}
         <motion.h1
           className="text-4xl font-bold text-gray-800"
           variants={headingVariants}
@@ -104,7 +97,6 @@ const NintendoCEOSection = () => {
           古川俊太郎 - 任天堂 CEO
         </motion.h1>
 
-        {/* 段落 1 */}
         <motion.p
           className="text-xl leading-relaxed text-gray-800"
           variants={paragraph1Variants}
@@ -114,7 +106,6 @@ const NintendoCEOSection = () => {
           世界のゲーム業界の変化やプレイヤーのニーズを深く理解してきました。
         </motion.p>
 
-        {/* 段落 2 */}
         <motion.p
           className="text-xl leading-relaxed text-gray-800"
           variants={paragraph2Variants}
@@ -125,7 +116,6 @@ const NintendoCEOSection = () => {
           幅広い世代のプレイヤーに楽しさと驚きを提供することを目指しています。
         </motion.p>
 
-        {/* 段落 3 */}
         <motion.p
           className="text-xl leading-relaxed text-gray-800"
           variants={paragraph3Variants}
