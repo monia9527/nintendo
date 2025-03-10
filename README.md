@@ -14,7 +14,7 @@ Welcome to the **Nintendo Introduction Page**, a dynamic and interactive website
 - **Frontend**: React, TailwindCSS, Framer Motion, GSAP
 - **Routing**: React Router
 - **Animation**: Framer Motion, GSAP
-- **Deployment**: Vercel (or GitHub Pages)
+- **Deployment**: Vercel
 
 ##  Screenshots
 *(Add a few images here to showcase the UI & animations.)*
