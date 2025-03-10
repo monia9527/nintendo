@@ -25,12 +25,12 @@ Welcome，A dynamic and interactive website built using **React, TailwindCSS, Fr
 To run this project locally, follow these steps:
 
 ```sh
-# 1️⃣ Clone the repository
+#  Clone the repository
 git clone https://github.com/monia9527/nintendo.git
 cd nintendo
 
-# 2️⃣ Install dependencies
+#  Install dependencies
 npm install  # or yarn install
 
-# 3️⃣ Start the development server
+#  Start the development server
 npm run dev  # or yarn dev
