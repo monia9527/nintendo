@@ -1,7 +1,9 @@
 # React + Vite
 
 # Nintendo Introduction Page | React Interactive Website
-# Demo nintendo-ochre.vercel.app
+[🔗 Live Demo](https://nintendo-ochre.vercel.app)
+![Nintendo Website Screenshot](assets/screenshot.png)
+
 
 
 Welcome，A dynamic and interactive website built using **React, TailwindCSS, Framer Motion, and GSAP animations**. This project showcases Nintendo's history and popular game franchises with stunning animations and smooth transitions.
