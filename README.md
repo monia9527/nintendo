@@ -2,7 +2,7 @@
 
 # Nintendo Introduction Page | React Interactive Website
 [🔗 Live Demo](https://nintendo-ochre.vercel.app)
-![Nintendo Website Screenshot](nintendo/src/assets/Screenshot.png)
+![Nintendo Screenshot](https://github.com/monia9527/nintendo/blob/main/src/assets/Screenshot.png?raw=true)
 
 
 
